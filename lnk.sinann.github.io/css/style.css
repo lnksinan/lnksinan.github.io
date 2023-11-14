@@ -1,25 +1,4 @@
-:root{
-    --main-bg-color: #B0A695;
-    --secondry-bg-color: #884A39;
-    --text-main-color: #3F2305;
-    --text-secondry-color: #1A120B;
-}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
-
-
-
-
-
-html{
-    font-size: 85%;
-}
 body{
     background-color: var(--main-bg-color);
     margin: 1rem;
@@ -270,71 +249,5 @@ body{
     color: #B0A695;
 }
 
-
-
-@media screen and (max-width: 1200px) {
-    html{
-        font-size: 55%;
-    }
-}
-@media screen and (max-width: 991px) {
-   .header{
-    padding: 2rem 3%;
-   }
-   section {
-    padding: 10rem 3% 2rem;
-   }
-   .portfolio{
-    padding-bottom: 7rem;
-   }
-   .footer{
-    padding: 2rem 3%;
-   }
-}
-
-@media screen and (max-width: 768px){
-    .home{
-        display: flex;
-        flex-direction: column;
-    }
-    .home-content h3{
-        font-size: 2.2rem;
-    }
-    .home-content h1{
-        font-size: 5rem;
-    }
-    .img-content img{
-        width: 70vw;
-        margin-top: 4rem;
-    }
-    .home .btn{
-        margin-top: 4rem;
-    }
-    .about {
-        flex-direction: column;
-    }
-    .about-content h2{
-        font-size: 5rem;
-    }
-    .about-content h3{
-        font-size: 2.2rem;
-    }
-    .about-img img{
-        width: 70vw;
-        margin-top: 4rem;
-    }
-    .portolio h2{
-        margin-bottom: 3rem;
-    }
-    .portfolio-container{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media screen and (max-width: 617px){
-    .portfolio-container{
-        grid-template-columns: 1fr;
-    }
-
-}
  
  
