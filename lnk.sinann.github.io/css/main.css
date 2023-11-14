@@ -1,0 +1,17 @@
+@import url(/css/style.css);
+@import url(/css/responsive.css);
+
+:root{
+    --main-bg-color: #B0A695;
+    --secondry-bg-color: #884A39;
+    --text-main-color: #3F2305;
+    --text-secondry-color: #1A120B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
