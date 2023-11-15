@@ -24,11 +24,11 @@ body{
     font-size: 1.7rem;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 1rem;
     
 }
 .navbar-content{
-    border-bottom: 3px solid var(--secondry-bg-color);
+    border-bottom: 3px solid black;
     border-radius: 24px;
 }
 .navbar-menu-links{
@@ -43,20 +43,21 @@ body{
 .navbar-menu-links li a{
     color: black;
     letter-spacing: .5rem;
-    text-transform: uppercase;
 }
 .home{
-    background-color: var(--secondry-bg-color);
     border-radius: 24px;
     width: 100%;
     padding: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     column-gap: 4rem;
 }
 .home-content{
+    border-left: 5px solid black;
+    border-radius: 29px;
+    margin-top: 10rem;
     margin-left: 3rem;
     padding: 2rem;
     width: 100%;
@@ -79,12 +80,12 @@ body{
 }
 .home-content p{
     margin-top: 2rem;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
+    width: 80%;
     
 }
 .profile-content{
     height: min-content;
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,16 +94,16 @@ body{
 .img-content img{
     padding: 1rem;
     border-radius: 360px;
-    width: 25vw;
+    width: 30vw;
 }
 .btn{
     display: inline-block;
-    padding: 1.2rem 2.8rem;
+    padding: .7rem 1.9rem;
     background: transparent;
     border: .2rem solid black;
     border-radius: 1rem;
     box-shadow: .2rem .2rem .3rem .1rem black;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: black;
     transition: .5s ease;
 }
@@ -135,25 +136,27 @@ body{
 
 
 .about{
-    background-color: var(--secondry-bg-color);
     border-radius: 24px;
-    padding: 5rem;
+    padding: 2rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 5rem;
+    margin-top: 7rem;
 }
 .about-img img{
     width: 30vw;
-    padding: 1rem;
     
 }
 .heading{
     font-size: 3.7rem;
 }
 .about-content{
+    border-left: 5px solid black;
+    border-radius: 29px;
     margin-left: 3rem;
-    padding: 2rem;
+    padding: 1.2rem;
+    padding-left: 2rem;
     width: 100%;
     min-height: auto;
 }
@@ -168,14 +171,14 @@ body{
 
 }
 .about-content p{
-    font-size: 1.7rem;
-    margin: 2rem 0 3rem ;
+    font-size: 1.2rem;
+    margin: 2rem 0 2rem ;
+    width: 80%;
 }
 
 .portfolio{
-    background-color: var(--secondry-bg-color);
     border-radius: 24px;
-    margin-top: 4rem;
+    margin-top: 5rem;
     align-items: center;
     padding: 4rem;
 }
@@ -186,6 +189,7 @@ body{
 
 .portfolio h2{
     margin-bottom: 4rem;
+    font-size: 2.2rem;
 }
 .portfolio-box{
     display: flex;
@@ -265,6 +269,21 @@ body{
     color: #B0A695;
 }
 
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 29px;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 2rem;
+    min-height: auto;
+    font-size: 1.2rem;
+}
+
 
 @media screen and (max-width: 1200px) {
     html{
@@ -284,6 +303,10 @@ body{
    .footer{
     padding: 2rem 3%;
    }
+   .footer-content p{
+    align-items: center;
+    text-align: center;
+}   
 }
 
 @media screen and (max-width: 768px){
@@ -323,6 +346,14 @@ body{
     .portfolio-container{
         grid-template-columns: repeat(2, 1fr);
     }
+    .footer{
+        padding: 2rem 3%;
+        font-size: 2.2rem;
+       }
+    .footer-content p{
+        align-items: center;
+        text-align: center;
+    }   
 }
 @media screen and (max-width: 617px){
     .portfolio-container{
