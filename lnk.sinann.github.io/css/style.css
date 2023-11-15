@@ -295,7 +295,7 @@ body{
     padding: 2rem 3%;
    }
    section {
-    padding: 10rem 3% 2rem;
+    padding: 10rem 3% 1rem;
    }
    .portfolio{
     padding-bottom: 7rem;
@@ -358,6 +358,9 @@ body{
 @media screen and (max-width: 617px){
     .portfolio-container{
         grid-template-columns: 1fr;
+    }
+    .navbar-content{
+        font-size: 1.2rem;
     }
 
 }
